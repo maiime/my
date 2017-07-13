@@ -11,7 +11,9 @@
 	include_once "submit_answer.func.php";
 	include_once "add_zi.func.php";
 	include_once "create_json.func.php";
+	include_once "create_json2.func.php";
 	include_once "del_question.func.php";		//删除问题
 	include_once "get_answer.func.php";			//获取答案
 	include_once "get_zi.func.php";				//获取一个字模
+	include_once "zi.func.php";				//获取一个字模
  ?>

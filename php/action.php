@@ -9,11 +9,15 @@
 		echo add_zi($_POST['md5'],$_POST['md5_temp'],$_POST['data']);
 	}else if($action == 'create_json'){
 		echo create_json();
+	}else if($action == 'create_json2'){
+		echo create_json2();
 	}else if($action == 'del_question'){
 		echo del_question($_POST['id']);
 	}else if($action == 'get_answer'){
 		echo get_answer($_POST['md5'],$_POST['question']);
 	}else if($action == 'get_zi'){
 		echo get_zi();
+	}else if($action == 'lu_ti'){
+		echo lu_ti($_POST['md5'],$_POST['question'],$_POST['answer']);
 	}
  ?>
